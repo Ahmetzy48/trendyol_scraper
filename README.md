@@ -1,11 +1,10 @@
 To execute file without no problem required sql table desing: 
 
-CREATE TABLE dbo.hepsiburada_cpu (
+CREATE TABLE dbo.TableName (
     id NVARCHAR(100) PRIMARY KEY,  
     make NVARCHAR(100),                 
     name NVARCHAR(300),                 
     price FLOAT,            
     img_url NVARCHAR(MAX),              
-    prd_url NVARCHAR(MAX),            
-    last_updated DATETIME DEFAULT GETDATE() 
+    prd_url NVARCHAR(MAX),          
 );
