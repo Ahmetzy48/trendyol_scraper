@@ -1,4 +1,4 @@
-To execute file without no problem required sql table desing: 
+Required sql table design due to execute python file: 
 
 CREATE TABLE dbo.TableName (
     id NVARCHAR(100) PRIMARY KEY,  
